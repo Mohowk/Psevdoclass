@@ -1,0 +1,143 @@
+/* Псевдоклассы и псевдоэлементы*/
+
+/* :hover-отрабатывает при наведении */
+/* div {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border:2px solid black;
+  border-radius: 10px;
+  color: white;
+} */
+
+/* div:hover{
+  background-color: yellow;
+  transition: 2s;
+} */
+
+/* псевдокласс для ссылок */
+/* visited- подсвечтвает посещенные ссылки*/
+
+/* a:visited{
+  color: green;
+} /*
+
+/* a:active { - подсвечивает в момент нажатия*/
+/*  color: black;
+}
+
+
+.block{
+  background-color: violet;
+  width: 100px;
+  height: 100px;
+}
+
+.block:active{
+  background-color: teal;
+} */
+
+/* ul{
+  list-style-type: none;
+} 
+div{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* /* first-child, last-child() - для обращения только к некоторым элементам на странице/* */
+
+/* li:first-child > div {
+    background-color: yellow;
+  }
+  li:nth-child(3)>div{
+    background-color: green;
+  }
+  li:last-child> div{
+    background-color: blue;
+  }
+
+
+
+ul li:maker 
+
+
+
+  ul li:maker {
+  color: red;
+} */
+
+input {
+  background-color: black;
+  border: 2px solid red;
+  color: red;
+  transition: 0.8s;
+}
+/* focus-отрабатывает при фокусировке на данный элемент/*
+
+
+input:focus {
+  background-color: yellow;
+  transition: 0.8s;
+}
+/* not-задает стили всему, что не содержит данный селектор /*
+.div-1, .div-2{
+  width: 100px;
+  height: 100px;
+  margin: 5px 0;
+  background-color: red;
+  color: white;
+
+  font-size: 20px;
+  text-align: center;
+}
+div:not(.div-2){
+  background-color: yellow;
+}
+
+/* valid, invalid- проверка данных в инпуте */
+/* input:valid { */
+/* проверка данных по типу/*
+  background-color: green;
+}
+input:invalid {
+  /* если введены неправильные данные*/
+/* background-color: red;
+} */
+
+/* Псевдоэлементы/*
+h1: :before{-контен до основного контента
+  content: "World";
+}
+
+h1: :after{-контен после основного контента
+  content: "World";
+}*/
+/* selection -применяет стили к выделенному тексту*/
+/* p: :selction {
+  color: red;
+  background-color black ;
+} */
+
+h1::first-letter {
+  color: red;
+  font-size: 55px;
+}
+
+/* first-line*/
+p::first-line {
+  color: red;
+  font-size: 25px;
+}
+
+/* odd- применит стили к четным элементам */
+/* even - к четным */
+
+.li:nth-child(3n+10) {
+  color: aqua;
+}
